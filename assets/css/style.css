@@ -8,6 +8,8 @@
 
 body{
     font-family: 'Abril Fatface', cursive;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 header{
@@ -18,7 +20,7 @@ header{
 }
 
 .carousel-indicators {
-    top: 150px;
+    top: 300px;
 }  
 .carousel-indicators li {
     width: 10px;
