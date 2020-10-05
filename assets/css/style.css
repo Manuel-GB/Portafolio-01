@@ -20,13 +20,6 @@ header{
     padding-bottom: 100%;
 }
 
-.titulo-hero{
-    position: absolute;
-    top: 75%;
-    left: 10%;
-    color: cornflowerblue;
-}
-
 .carousel-indicators {
     top: 300px;
 }  
