@@ -1,0 +1,22 @@
+.selected-section {
+    background-image: url('../img/pkmn-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding-bottom: 1rem;
+}
+
+footer i {
+    margin: 0 0.25em 0.5em 0.25em;
+}
+footer {
+    padding: 3.125rem;
+}
+.oscuro {
+    background: #000f08;
+    color: #ffffff;
+}
+.oscuro a{
+    color: #ffffff;
+    text-decoration: none;
+}

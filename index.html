@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <!--Iconos-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <!--Mi estilo-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>PokeDeck</title>
+    </head>
+
+    <body>
+        <section class="selected-section text-light">
+            <h1 class="tittle text-center pb-5"><strong>POKEDECK</strong></h1>
+            <!-- <h3 class="sub-tittle text-center">Ejemplo de consulta AJAX y plugin Canvas</h3> -->
+            <div class="input-group text-center pl-5 pr-5">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Pokemon Number</span>
+                </div>
+                <input id="number-pkmn" type="text" aria-label="First name" class="form-control" placeholder="numbers of 1 - 807">
+            </div>
+            <div class="btn-search text-center pl-5 pr-5">
+                <button id="btn-serch" type="submit" class="btn btn-primary btn-lg btn-block">Pokemon Search</button>
+            </div>
+        </section>
+        <div id="error" class="error-mesage text-center pt-5" style="color: crimson;"></div>
+        <div class="container m-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="pkmn-name" style="height: 250px; width: 100%; padding: 1rem;"></div>
+                    <h2 class="title-pkmn-type"></h2>
+                    <ul id="pkmn-type"></ul>
+                </div>
+                <div class="col-md-6">
+                    <div id="chartContainer" style="height: 400px; width: 100%; padding: 1rem;"></div>
+                </div>
+            </div>
+        </div>
+        <footer id="contacto" class="oscuro text-center text-light bg-dark">
+            <a href="https://facebook.com"><i class="fab fa-facebook-square fa-5x"></i></a>
+            <a href="https://linkedin.com"><i class="fab fa-linkedin fa-5x"></i></a>
+            <a href="https://github.com"><i class="fab fa-github-square fa-5x"></i></a>
+            <a href="https://twitter.com"><i class="fab fa-twitter-square fa-5x"></i></a>
+        </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+    <script src="app.js"></script>
+    </body>
+
+</html>
